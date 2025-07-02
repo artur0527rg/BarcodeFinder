@@ -1,0 +1,9 @@
+.scanner-page__container {
+    display: flex;
+    flex-direction: column;
+}
+
+.scanner-page__result {
+    padding-top: 10px;
+    text-align: center;
+}

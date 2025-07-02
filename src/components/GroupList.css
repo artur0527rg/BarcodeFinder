@@ -1,0 +1,25 @@
+.groups__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.groups__group {
+    text-transform: uppercase;
+}
+
+.groups__delete-button {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+    border: 0px;
+    gap:10px 
+}
+
+.groups__item-ul {
+    padding-left: 10px;
+    color: gray;
+}

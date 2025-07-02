@@ -1,0 +1,20 @@
+.groups-page {
+    padding-bottom: 32px;
+}
+
+.groups-page__buttons {
+  display: flex;
+  padding-top: 10px;
+  gap: 10px;
+}
+
+.groups-page__add-button {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background-color: #093fb4;
+  color: white;
+  border-radius: 10px;
+  border: 0px;
+  gap: 10px;
+}
