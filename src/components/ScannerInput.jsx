@@ -1,9 +1,11 @@
 import { useState, useEffect } from 'react';
+import { useAutoFocus } from '../hooks/useAutoFocus';
 import './ScannerInput.css'
 
 function ScannerInput({ onScan }) {
   const [input, setInput] = useState('');
   const [timer, setTimer] = useState(null);
+  const inputRef = useAutoFocus();
 
   useEffect(() => {
     return () => {
@@ -39,6 +41,7 @@ function ScannerInput({ onScan }) {
       <input
         className='scanner-input__input'
         type="text"
+        ref={inputRef}
         value={input}
         onChange={handleChange}
         onKeyDown={preventTab}
